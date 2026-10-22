@@ -1,9 +1,15 @@
 Social Media Analytics Engine
+
+
 A relational database system and analytics platform built on MySQL 8.0 and Node.js/Express, designed to process, analyze, and surface structured insights from large-scale social platform interactions.
 
 Unlike standard CRUD applications, the database itself handles analytical computations—utilizing Common Table Expressions (CTEs), window functions, cursor-driven stored procedures, deterministic stored functions, and automated triggers.
 
+Download social-analytics-demo.html raw file to access html demo website.
+
 Overview
+
+
 Social networks generate massive streams of connected interaction data. Answering complex product questions—such as identifying emerging weekly trends, creator percentiles, moving engagement averages, and mutual follow networks—requires structured database schemas and set-based query execution.
 
 On initial boot, the engine automatically runs migrations and seeds an active mock dataset comprising:
